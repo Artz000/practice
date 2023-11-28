@@ -1,10 +1,7 @@
 package ru.ssau.tk.functions;
 
-import junit.framework.TestCase;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-public class SinFunctionTest extends TestCase {
+import static org.junit.jupiter.api.Assertions.*;
+public class SinFunctionTest{
     @org.junit.jupiter.api.Test
     public void testApply() {
         SinFunction x = new SinFunction();

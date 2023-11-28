@@ -1,6 +1,5 @@
 package ru.ssau.tk.functions;
 
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IdentityFunctionTest  {
@@ -8,5 +7,6 @@ public class IdentityFunctionTest  {
     void apply() {
         IdentityFunction x = new IdentityFunction();
         assertEquals(x.apply(10), 10);
+
     }
 }

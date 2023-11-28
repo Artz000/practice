@@ -1,9 +1,12 @@
 package ru.ssau.tk.functions;
 
-import junit.framework.TestCase;
 
-public class IdentityFunctionTest extends TestCase {
+import static org.junit.jupiter.api.Assertions.*;
 
-    public void testApply() {
+public class IdentityFunctionTest  {
+    @org.junit.jupiter.api.Test
+    void apply() {
+        IdentityFunction x = new IdentityFunction();
+        assertEquals(x.apply(10), 10);
     }
 }
